@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bótica Vida Saludable</title>
+    <title>Kalijh</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -18,8 +18,8 @@
 
     <!-- Custom Styles -->
     <style>
-        .bg-pharmacy {
-            background: url('https://images.pexels.com/photos/7615574/pexels-photo-7615574.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2') no-repeat center center/cover;
+        .bg-library {
+            background: url('https://images.pexels.com/photos/32757427/pexels-photo-32757427.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2') no-repeat center center/cover;
             height: 100vh;
             position: relative;
             overflow: hidden;
@@ -42,7 +42,7 @@
         }
 
         .title-gradient {
-            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #f7b733);
+            background: linear-gradient(90deg, #8B0000, #2F4F4F, #4B0082);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -50,6 +50,18 @@
             font-size: 3.5rem;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
             animation: gradientShift 5s ease infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .kalijh-highlight {
+            background: linear-gradient(90deg, #FFD700, #FFA500, #FF4500);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 4rem;
+            font-weight: 900;
         }
 
         @keyframes gradientShift {
@@ -86,12 +98,15 @@
 </head>
 <body class="font-poppins">
     <!-- Main Content -->
-    <div class="bg-pharmacy">
+    <div class="bg-library">
         <div class="content flex flex-col items-center justify-center h-full">
             <div class="glass-card">
-                <h1 class="title-gradient mb-6" data-aos="fade-up" data-aos-duration="1000">Vida Saludable</h1>
+                <h1 class="title-gradient mb-6" data-aos="fade-up" data-aos-duration="1000">
+                    <span class="kalijh-highlight">Kalijh</span>
+                    <span>Librería - Multiservicios</span>
+                </h1>
                 <p class="subtitle-color mb-8 text-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    Tu botica de confianza, comprometida con tu bienestar con productos de calidad y atención personalizada.
+                    Tu librería y multiservicios de confianza: encuentras útiles escolares, además de servicios de impresiones, fotocopias y anillados con atención personalizada.
                 </p>
                 <div class="space-x-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <a href="{{ route('login') }}" class="button-primary text-white">Inicio</a>

@@ -2,7 +2,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://unpkg.com/alpinejs" defer></script> <!-- Asegúrate de incluir Alpine.js -->
 </head>
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8" x-data="customerTable()">
+<div class="w-full py-8 px-0 sm:px-0 lg:px-0" x-data="customerTable()">
     <!-- Notificaciones -->
     @if (session('success'))
         <script>

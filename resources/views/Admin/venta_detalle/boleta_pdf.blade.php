@@ -188,12 +188,12 @@
 <body>
     <div class="ticket-container">
         <div class="header-info center">
-            <img src="{{ public_path('image/logo_VidaSaludable.png') }}" alt="Logo Empresa"
+            <img src="{{ public_path('image/logo-kalijh.png') }}" alt="Logo"
                 style="max-width: 90px; margin-bottom: 6px;">
-            <h2>Vida Saludable S.A.C.</h2>
-            <p>RUC: 20XXXXXXXXX</p>
-            <p>Dirección: Av. Principal 123, Ciudad, País</p>
-            <p>Teléfono: (123) 456-7890</p>
+            <h2>Kalijh</h2>
+            <p>RUC: 1076755491</p>
+            <p>Dirección: Av. La Salle con Inca, Urubamba, Perú</p>
+            <p>Teléfono: 912052408</p>
         </div>
 
         <div class="divider"></div>
@@ -265,7 +265,7 @@
 
         <div class="footer-text center">
             <p>¡Gracias por su compra!</p>
-            <p>Sistema de Gestión Vida Saludable</p>
+            <p>Librería y Multiservicios Kalijh</p>
             <p>Generado el: {{ now()->format('d/m/Y H:i') }}</p>
         </div>
     </div>

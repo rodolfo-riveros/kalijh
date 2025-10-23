@@ -2,7 +2,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+<div class="w-full py-0 px-0 sm:px-0 lg:px-0">
     {{-- Alerta --}}
     @if (session('success'))
         <script>

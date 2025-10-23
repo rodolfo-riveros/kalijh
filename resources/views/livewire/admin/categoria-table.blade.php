@@ -1,4 +1,4 @@
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8" x-data="categoryTable()">
+<div class="w-full py-8 px-0 sm:px-0 lg:px-0" x-data="categoryTable()">
     <!-- Notificaciones -->
     @if (session('success'))
         <script>

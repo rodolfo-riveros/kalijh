@@ -1,7 +1,7 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+<div class="w-full py-0 px-0 sm:px-0 lg:px-0">
     {{-- Alerta --}}
     @if (session('success'))
         <script>
@@ -85,7 +85,7 @@
                     </label>
                     <input type="text" id="name" name="name"
                         class="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 text-white placeholder-zinc-500"
-                        placeholder="Ej: Paracetamol 500mg" required maxlength="255" data-flux-control>
+                        placeholder="Ej: Cuaderno A4 100 hojas" required maxlength="255" data-flux-control>
                     @error('name')
                         <p class="mt-1 text-sm text-red-500 font-medium" data-flux-component="error">{{ $message }}</p>
                     @enderror
@@ -160,7 +160,7 @@
                 </label>
                 <textarea id="description" name="description" rows="4"
                     class="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 text-white placeholder-zinc-500"
-                    placeholder="Ej: Tabletas para el dolor de cabeza" data-flux-control></textarea>
+                    placeholder="Ej: Cuaderno A4 de 100 hojas, ideal para estudiantes" data-flux-control></textarea>
                 @error('description')
                     <p class="mt-1 text-sm text-red-500 font-medium" data-flux-component="error">{{ $message }}</p>
                 @enderror

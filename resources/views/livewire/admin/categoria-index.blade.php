@@ -1,7 +1,7 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+<div class="w-full py-0 px-0 sm:px-0 lg:px-0">
     {{-- Alerta --}}
     @if (session('success'))
         <script>
@@ -50,7 +50,7 @@
                 </label>
                 <input type="text" id="name" name="name"
                     class="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 text-white placeholder-zinc-500"
-                    placeholder="Ej: Medicamentos, Suplementos, Cuidado Personal" required data-flux-control>
+                    placeholder="Ej: Libros, Útiles Escolares, Servicios de Impresión" required data-flux-control>
                 @error('name')
                     <p class="mt-1 text-sm text-red-500 font-medium" data-flux-component="error">{{ $message }}</p>
                 @enderror
@@ -62,7 +62,7 @@
                 </label>
                 <textarea id="description" name="description" rows="3"
                     class="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 text-white placeholder-zinc-500"
-                    placeholder="Describe la categoría" required data-flux-control></textarea>
+                    placeholder="Describe la categoría, ej: Libros de literatura, cuadernos y lápices, o servicios de impresión y encuadernación" required data-flux-control></textarea>
                 @error('description')
                     <p class="mt-1 text-sm text-red-500 font-medium" data-flux-component="error">{{ $message }}</p>
                 @enderror

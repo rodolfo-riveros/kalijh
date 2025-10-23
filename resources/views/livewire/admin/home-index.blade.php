@@ -1,4 +1,4 @@
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+<div class="w-full py-0 px-0 sm:px-0 lg:px-0">
     <div class="w-full bg-zinc-900 rounded-xl shadow-2xl overflow-hidden p-6 border border-zinc-800">
         <!-- Encabezado -->
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">

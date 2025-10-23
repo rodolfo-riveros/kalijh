@@ -22,7 +22,7 @@ class ProductoController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'category_id' => 'required|exists:categories,id',
-            'supplier_id' => 'required|exists:products,id',
+            'supplier_id' => 'required|exists:suppliers,id',
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'codigo_barra' => 'required|string|unique:products,codigo_barra',
@@ -60,10 +60,10 @@ class ProductoController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'category_id' => 'required|exists:categories,id',
-            'supplier_id' => 'required|exists:products,id',
+            'supplier_id' => 'required|exists:suppliers,id',
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'codigo_barra' => 'required|string|unique:products,codigo_barra',
+            'codigo_barra' => 'required|string|unique:products,codigo_barra,' . $id,
             'precio_venta' => 'required|numeric|min:0',
             'precio_compra' => 'required|numeric|min:0',
             'stock' => 'required|integer|min:0',

@@ -171,7 +171,7 @@
 <body>
     <div class="header">
         <div class="logo">
-            <img src="{{ public_path('image/logo_VidaSaludable.png') }}" alt="Logo">
+            <img src="{{ public_path('image/logo-kalijh.png') }}" alt="Logo">
         </div>
         <h1>Reporte Detalle de Ventas</h1>
     </div>
@@ -252,7 +252,7 @@
     </div>
 
     <div class="footer">
-        Generado el {{ now()->format('d/m/Y H:i') }} | Sistema de Gestión Vida Saludable
+        Generado el {{ now()->format('d/m/Y H:i') }} | Librería y Multiservicios Kalijh
     </div>
 </body>
 </html>

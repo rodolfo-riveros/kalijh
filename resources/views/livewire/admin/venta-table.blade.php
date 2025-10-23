@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8 space-y-6">
+<div class="w-full py-0 px-0 sm:px-0 lg:px-0 space-y-0">
     {{-- Alerta --}}
     @if (session('success'))
         <script>

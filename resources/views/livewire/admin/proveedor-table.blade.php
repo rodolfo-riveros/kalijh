@@ -1,7 +1,7 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<div class="w-full py-8 px-4 sm:px-6 lg:px-8" x-data="supplierTable()">
+<div class="w-full py-8 px-0 sm:px-0 lg:px-0" x-data="supplierTable()">
     <!-- Notificaciones -->
     @if (session('success'))
         <script>
